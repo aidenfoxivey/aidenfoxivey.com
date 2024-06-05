@@ -1,39 +1,3 @@
-@font-face {
-    font-family: "Atkinson Hyperlegible";
-    src:
-        local("AtkinsonHyperlegible-Regular"),
-        url("fonts/AtkinsonHyperlegible-Regular.woff") format("woff");
-    font-display: swap;
-}
-
-@font-face {
-    font-family: "Atkinson Hyperlegible";
-    src:
-        local("AtkinsonHyperlegible-Bold"),
-        url("fonts/AtkinsonHyperlegible-Bold.woff") format("woff");
-    font-weight: bold;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: "Atkinson Hyperlegible";
-    src:
-        local("AtkinsonHyperlegible-BoldItalic"),
-        url("fonts/AtkinsonHyperlegible-BoldItalic.woff") format("woff");
-    font-weight: bold;
-    font-style: italic;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: "Atkinson Hyperlegible";
-    src:
-        local("AtkinsonHyperlegible-Italic"),
-        url("fonts/AtkinsonHyperlegible-Italic.woff") format("woff");
-    font-style: italic;
-    font-display: swap;
-}
-
 .portrait {
     max-width: 20%;
     height: auto;
@@ -178,23 +142,7 @@ html {
 
 body {
     font-family:
-        "Helvetica",
-        "Atkinson Hyperlegible",
-        system-ui,
-        -apple-system,
-        BlinkMacSystemFont,
-        "Segoe UI",
-        "Roboto",
-        "Oxygen",
-        "Ubuntu",
-        "Cantarell",
-        "Fira Sans",
-        "Droid Sans",
-        "Helvetica Neue",
-        "Segoe UI Emoji",
-        "Apple Color Emoji",
-        "Noto Color Emoji",
-        sans-serif;
+       system-ui, -apple-system, Roboto, "Segoe UI", sans-serif
     line-height: 1.4;
     max-width: 800px;
     margin: 20px auto;
