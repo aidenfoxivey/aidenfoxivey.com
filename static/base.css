@@ -23,9 +23,7 @@
 :root,
 ::backdrop {
   /* Set sans-serif & mono fonts */
-  --sans-font: -apple-system, BlinkMacSystemFont, "Avenir Next", Avenir,
-    "Nimbus Sans L", Roboto, "Noto Sans", "Segoe UI", Arial, Helvetica,
-    "Helvetica Neue", sans-serif;
+  --sans-font: Seravek, 'Gill Sans Nova', Ubuntu, Calibri, 'DejaVu Sans', source-sans-pro, sans-serif;
   --mono-font: Consolas, Menlo, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
   --standard-border-radius: 5px;
 
