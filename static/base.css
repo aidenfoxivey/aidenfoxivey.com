@@ -653,7 +653,9 @@ pre span,
 kbd,
 samp {
   font-family: "Berkeley Mono";
+  font-size: 11pt;
   color: var(--code);
+  display: inline-block;
 }
 
 kbd {
