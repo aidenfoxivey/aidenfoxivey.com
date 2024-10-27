@@ -1,9 +1,6 @@
 # aidenfoxivey.com
 
-Welcome to my internet home. It's pretty simple.
-
-Links *may* change. I have not yet decided whether I intend on operating
-permalinks.
+Welcome to my internet home. Links *may* change.
 
 ## Legal Disclaimer
 
@@ -13,11 +10,10 @@ images. To my knowledge, these images have valid rational to be under fair use
 within Canada and the United States. If you believe otherwise, you can contact
 me via one of the links on [aidenfoxivey.com](https://aidenfoxivey.com).
 
-Content on this site is my copyright.
+Content on this site is under my copyright.
 
 Underlying code for the site comes from [Zola](https://www.getzola.org/), which
-is MIT licensed. The site is hosted via [Sourcehut Pages](https://srht.site/),
-which is licensed under GNU AGPL 3.
+is MIT licensed.
 
 Additional graphics are fair use.
 
