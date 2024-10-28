@@ -1,6 +1,6 @@
 @font-face {
   font-family: "Berkeley Mono";
-  src: url("/BerkeleyMonoVariable-Regular.woff2") format("woff2");
+  src: url("/fonts/BerkeleyMonoVariable-Regular.woff2") format("woff2");
 }
 
 
@@ -92,6 +92,11 @@ html {
   video {
     opacity: 0.8;
   }
+
+  img:not([class*="no-invert"]) {
+    filter: invert(100%);
+  }
+
 }
 
 /* Reset box-sizing */
@@ -119,7 +124,7 @@ html {
 body {
   color: var(--text);
   background-color: var(--bg);
-  font-size: 1.15rem;
+  font-size: 1.10rem;
   line-height: 1.5;
   display: grid;
   grid-template-columns: 1fr min(50rem, 90%) 1fr;
@@ -599,13 +604,6 @@ mark {
 mark a {
   color: #0d47a1;
 }
-
-/*img,
-video {
-  max-width: 100%;
-  height: auto;
-  border-radius: var(--standard-border-radius);
-}*/
 
 figure {
   margin: 0;
