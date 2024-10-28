@@ -13,15 +13,9 @@ jobs:
 
     steps:
       - uses: actions/checkout@v3  # Forgejo Actions typically uses v3
-      
-      # Since there's no official Fly setup action in Forgejo,
-      # we'll install flyctl directly
-      - name: Install flyctl
-        run: |
-          curl -L https://fly.io/install.sh | sh
-          echo "$HOME/.fly/bin" >> $GITHUB_PATH
+      - uses: superfly/flyctl-actions/setup-flyctl@master
       
       - name: Deploy to Fly
         run: flyctl deploy --remote-only
         env:
-          FLY_TOKEN: ${{ secrets.FLY_TOKEN }}
+          FLY_API_TOKEN: ${{ secrets.FLY_TOKEN }}
