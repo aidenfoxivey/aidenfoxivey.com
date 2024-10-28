@@ -13,7 +13,6 @@ jobs:
 
     steps:
       - uses: actions/checkout@v3  # Forgejo Actions typically uses v3
-      - uses: github.com/superfly/flyctl-actions/setup-flyctl@master
       
       - name: Deploy to Fly
         run: flyctl deploy --remote-only
