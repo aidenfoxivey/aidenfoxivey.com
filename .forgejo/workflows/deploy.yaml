@@ -13,6 +13,11 @@ jobs:
 
     steps:
       - uses: actions/checkout@v3  # Forgejo Actions typically uses v3
+
+      - name: Install flyctl
+        run: |
+          curl -L https://fly.io/install.sh | sh
+          echo "$HOME/.fly/bin" >> $GITHUB_PATH
       
       - name: Deploy to Fly
         run: flyctl deploy --remote-only
