@@ -1,7 +1,7 @@
 {% extends "base.html" %} {% block content %}
 
 <h1 class="title">
-    <strong>Aiden Fox Ivey</strong>
+    Aiden Fox Ivey
 </h1>
 
 <p>
@@ -15,7 +15,14 @@
     abstractions.
 </p>
 
-<p>I'm generally quite eager to talk. I will certainly return your emails.</p>
+<p>I'm generally quite eager to talk. You can reach me at <a rel="me" href="mailto:aiden@aidenfoxivey.com">aiden@aidenfoxivey.com</a>.</p>
+
+
+<p>If you want to have authenticated and/or confidential email conversations, you can easily import my PGP key:
+    <br>
+    <code>curl https://aidenfoxivey.com/key.asc | gpg --import</code>
+</p>
+
 
 <p>
     <a href="aidenfoxivey.pdf">resume</a>
@@ -25,20 +32,16 @@
     <a href="key.asc" title="my PGP key">pgp key (expires 2030-10-21)</a>
     &nbsp;
     <a href="https://signal.me/#eu/uzqOI4xEUnWCQvUIUyPxcU481hHLzUnrsS9Xma3MO3HuFVrnLJpJZL7cGsmtfbcV">signal</a>
-
-<p>
-email:
-<a rel="me" href="mailto:aiden@aidenfoxivey.com">aiden@aidenfoxivey.com</a>
-</p>
-
-<p>
-    verify my accounts on
+    &nbsp;
     <a href="https://keyoxide.org/61605C2245761FC2200F078684B78FF77616E348"
         title="verification of my profiles and contacts">keyoxide</a>
 </p>
 
 <h3>cool stuff I've done:</h3>
 <ul>
+    <li>
+        added <a href="https://github.com/open-quantum-safe/liboqs/pull/1963">C++ linking test code</a> to liboqs
+    </li>
     <li>
         maintained a Zig syntax
         highlighting <a href="https://packagecontrol.io/packages/ZigUnofficial">extension</a> for Sublime Text
@@ -102,10 +105,7 @@ email:
         other forms of discrimination or hate.
     </p>
 
-    <img alt="pictogram of man throwing swastika in trash" src="images/nonazi.png">
-
-    <br>
-    &copy; 2024 by Aiden Fox Ivey
+    <img alt="pictogram of man throwing swastika in trash" src="images/nonazi.png" width=10%>
 </footer>
 
 {% endblock content %}
