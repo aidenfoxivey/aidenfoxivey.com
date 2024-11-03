@@ -1,6 +1,6 @@
 :root,
 ::backdrop {
-  --sans-font: Bahnschrift, 'DIN Alternate', 'Franklin Gothic Medium', 'Nimbus Sans Narrow', sans-serif-condensed, sans-serif;
+  --sans-font: sans-serif-condensed, sans-serif;
   --mono-font: ui-monospace, 'Cascadia Code', 'Source Code Pro', Menlo, Consolas, 'DejaVu Sans Mono', monospace;
 
   --bg: #fff;
